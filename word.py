@@ -10,17 +10,11 @@ paragraph_format = paragraph.paragraph_format
 
 p = document.add_paragraph('Name Surname ')
 
-#print(u"\u00A0")
-
 p.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.RIGHT
 p = document.add_paragraph('Street Address ')
 
-#print(u"\u00A0")
-
 p.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.RIGHT
 p = document.add_paragraph('ZIP code and City ')
-
-#print(u"\u00A0")
 
 p.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.RIGHT
 
